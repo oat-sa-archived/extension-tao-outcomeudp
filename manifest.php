@@ -20,10 +20,7 @@ return array(
         ),
 	'install' => array('rdf' => array(
 			dirname(__FILE__). '/models/ontology/taoResultsUdp.rdf'
-		)),
-	'classLoaderPackages' => array( 
-
-	 ),
+	)),
  	'constants' => array(
 	 
 		# models directory
