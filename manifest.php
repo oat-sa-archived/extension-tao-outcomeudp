@@ -12,7 +12,8 @@ return array(
 	'name' => 'taoResultsUdp',
 	'description' => 'Not intended for production.
         Implements the results storage.to be uded as documentation reference ',
-	'version' => '1.0',
+    'license' => 'GPL-2.0',
+    'version' => '1.0',
 	'author' => 'Open Assessment Technologies',
 	'dependencies' => array('taoResultServer'),
 	'models' => array(
