@@ -10,15 +10,18 @@ $taopath = dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'tao'.DIRECTORY_SEPARA
 	
 return array(
 	'name' => 'taoResultsUdp',
+    'label' => 'Result Storage UDP',
 	'description' => 'Not intended for production.
         Implements the results storage.to be uded as documentation reference ',
     'license' => 'GPL-2.0',
     'version' => '1.0',
 	'author' => 'Open Assessment Technologies',
-	'dependencies' => array('taoResultServer'),
+	'requires' => array(
+	    'taoResultServer' => '2.6'
+	),
 	'models' => array(
-		'http://www.tao.lu/Ontologies/taoResultsUdp.rdf#'
-        ),
+        'http://www.tao.lu/Ontologies/taoResultsUdp.rdf#'
+    ),
 	'install' => array('rdf' => array(
 			dirname(__FILE__). '/models/ontology/taoResultsUdp.rdf'
 	)),
