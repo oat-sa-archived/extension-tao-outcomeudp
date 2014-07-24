@@ -1,7 +1,7 @@
 {
 
     "name": "oat-sa/extension-tao-outcomeudp",
-    "description" : "extension to manage outcome using UDP",
+    "description" : "extension to handle UDP outcomes",
     "type" : "tao-extension",
     "authors" : [
 		{
