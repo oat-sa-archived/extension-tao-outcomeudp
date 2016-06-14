@@ -55,6 +55,10 @@ class taoResultsUdp_models_classes_taoResultsUdp
          $this->send("Delivery identification ".$deliveryResultIdentifier." ".$deliveryIdentifier);
     }
 
+    public function storeRelatedDeliveryExecution($deliveryResultIdentifier, $executionIdentifier) {
+         $this->send("Delivery execution identification ".$deliveryResultIdentifier." ".$executionIdentifier);
+    }
+
     public function storeItemVariable($deliveryResultIdentifier, $test, $item, taoResultServer_models_classes_Variable $itemVariable, $callIdItem){
          $this->send("Item Variable ".$deliveryResultIdentifier." ".$itemVariable->getIdentifier()." ".$itemVariable->getValue());
     }

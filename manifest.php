@@ -14,10 +14,10 @@ return array(
 	'description' => 'Not intended for production.
         Implements the results storage.to be uded as documentation reference ',
     'license' => 'GPL-2.0',
-    'version' => '1.0',
+    'version' => '2.0',
 	'author' => 'Open Assessment Technologies',
 	'requires' => array(
-	    'taoResultServer' => '2.6'
+        'taoResultServer' => '>=3.0'
 	),
 	'models' => array(
         'http://www.tao.lu/Ontologies/taoResultsUdp.rdf#'
