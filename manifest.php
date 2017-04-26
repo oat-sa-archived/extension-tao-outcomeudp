@@ -14,7 +14,7 @@ return array(
 	'description' => 'Not intended for production.
         Implements the results storage.to be uded as documentation reference ',
     'license' => 'GPL-2.0',
-    'version' => '1.0',
+    'version' => '2.0',
 	'author' => 'Open Assessment Technologies',
 	'requires' => array(
 	    'taoResultServer' => '2.6'
@@ -38,13 +38,6 @@ return array(
 	
 		#BASE URL (usually the domain root)
 		'BASE_URL'				=> ROOT_URL . '/taoResultsUdp',
-	
-		#BASE WWW the web resources path
-		'BASE_WWW'				=> ROOT_URL . '/taoResultsUdp/views/',
-	 
-	  	#TAO extension Paths
-		'TAOBASE_WWW'			=> ROOT_URL  . '/tao/views/',
-		
 	)
 );
 ?>
